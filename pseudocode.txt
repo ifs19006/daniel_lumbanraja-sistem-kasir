@@ -1,0 +1,21 @@
+READ AND WRITE "nama_barang" with string
+READ AND WRITE "jumlah_barang" with number
+READ AND WRITE "harga_barang" with number
+READ AND WRITE "total_harga" with number
+
+IF "jumlah_barang" more than "0"
+	STORE "jumlah_barang"
+	DISPLAY "jumlah_barang"
+ELSE
+	PRINT "Error!, Please Try Again"
+
+IF "harga_barang" more than "0"
+	STORE "harga_barang"
+	DISPLAY "harga_barang"
+ELSE
+	PRINT "Error!, Please Try Again"
+
+PROCEDURE total_harga(jumlah_barang, harga_barang)
+    STORE "total_harga" with jumlah_barang plus harga_barang
+    PRINT "total_harga"
+END PROCEDURE
