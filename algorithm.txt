@@ -1,0 +1,13 @@
+1. Mulai
+2. input nama_barang
+3. input jumlah_barang
+4. input harga_barang
+5. input total_harga
+6. read nama_barang
+7. read jumlah_barang
+8. read total_harga
+9. Mulai pernyataan IF
+10. IF: Jika memasukkan barang kurang sama dengan 0 maka error
+11. IF: Jika memasukkan harga barang kurang sama dengan 0 maka error
+12. total_harga = jumlah barang + harga barang
+13. Stop
